@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotelstyle.css">
+    <header>
+        <h1>The Old York</h1>
+        <hr>
+        <a href="loginpage.php">Login</a>
+        <a href="hotel.html">Hotel Rooms</a>
+        <a href="rentagreement.html">Apartments</a>
+        <a href="cleaning.html">Cleaning</a>
+        <a href="invoice.html">Invoice</a>
+        <hr>
+    </header>
+</head>
+<body>
+    <h1>CLEANING</h1>
+    <div class="cleaning">
+        <form method="post" action="cleaning.php">
+            <label for="inspec"><b>Date of Inspection</b></label>
+            <input id="inspec" type="date" placeholder="Date of Inspection" name="inspec" required><br>
+
+            <label for="staff"><b>Staff ID</b></label>
+            <input id="staff" type="number" placeholder="Staff ID" name="staff" required><br>
+        
+            <label for="condition"><b>Condition</b></label>
+            <input id="condition" type="text" placeholder="Room Condition" name="condition" required><br>
+
+            <label for="comm"><b>Additional Comments</b></label>
+            <input id="comm" type="text" placeholder="Additional Comments" name="comm" required><br>
+
+            <input type="submit" value="enter"><br>
+
+        </form>
+    </div>
+</body>
+</html>

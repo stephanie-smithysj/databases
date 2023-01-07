@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotelstyle.css">
+    <header>
+        <h1>The Old York</h1>
+        <hr>
+        <a href="loginpage.php">Login</a>
+        <a href="hotel.html">Hotel Rooms</a>
+        <a href="rentagreement.html">Apartments</a>
+        <a href="cleaning.html">Cleaning</a>
+        <a href="invoice.html">Invoice</a>
+        <hr>
+    </header>
+</head>
+<body>
+    <h1>INVOICE</h1>
+    <div class="invoice">
+        <form method="post" action="invoice.php">
+            <label for="invoice"><b>Invoice Number</b></label>
+            <input id="invoice" type="number" placeholder="Invoice Number" name="invoice" required><br>
+
+            <label for="rentnum"><b>Rent Number</b></label>
+            <input id="rentnum" type="number" placeholder="Rent Number" name="rentnum" required><br>
+        
+            <label for="rentperiod"><b>Rent Period</b></label>
+            <input id="rentperiod" type="number" placeholder="Rent Period" name="rentperiod" required><br>
+
+            <label for="paydue"><b>Payment Due</b></label>
+            <input id="paydue" type="number" placeholder="Payment Due" name="paydue" required><br>
+            
+            <label for="first"><b>Guest First Number</b></label>
+            <input id="first" type="text" placeholder="First Name" name="first" required><br>
+
+            <label for="last"><b>Guest Last Name</b></label>
+            <input id="last" type="text" placeholder="Last Name" name="last" required><br>
+            
+            <label for="appnum"><b>Apartment Number</b></label>
+            <input id="appnum" type="number" placeholder="Appartment Number" name="appnum" required><br>
+            
+            <label for="addy"><b>Address Details</b></label>
+            <input id="addy" type="text" placeholder="Address Details" name="addy" required><br>
+
+            <label for="dop"><b>Date of Payment</b></label>
+            <input id="dop" type="date" placeholder="Date of Payment" name="dop" required><br>
+
+            <label for="mop"><b>Method of Payment</b></label>
+            <input id="mop" type="text" placeholder="Method of Payment" name="mop" required><br>
+
+            <label for="firstrem"><b>Date of First Reminder</b></label>
+            <input id="firstrem" type="date" placeholder="Date of First Reminder" name="firstrem" required><br>
+
+            <label for="secrem"><b>Date of Second Reminder</b></label>
+            <input id="secrem" type="date" placeholder="Date of Second Reminder" name="secrem"><br>
+
+            <input type="submit" value="enter"><br>
+
+        </form>
+    </div>
+</body>
+</html>

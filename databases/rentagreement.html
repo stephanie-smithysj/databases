@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotelstyle.css">
+    <header>
+        <h1>The Old York</h1>
+        <hr>
+        <a href="loginpage.php">Login</a>
+        <a href="hotel.html">Hotel Rooms</a>
+        <a href="rentagreement.html">Apartments</a>
+        <a href="cleaning.html">Cleaning</a>
+        <a href="invoice.html">Invoice</a>
+        <hr>
+    </header>
+</head>
+<body>
+    <h1>APARTMENTS</h1>
+    <div class="rentagree">
+        <form method="post" action="rentagree.php">
+            <label for="rentnum"><b>Rent Number</b></label>
+            <input id="rentnum" type="number" placeholder="Rent Number" name="rentnum" required><br>
+
+            <label for="duration"><b>Duration</b></label>
+            <input id="duration" type="number" placeholder="Duration" name="duration" required><br>
+        
+            <label for="first"><b>Guest First Name</b></label>
+            <input id="first" type="text" placeholder="First Name" name="first" required><br>
+            
+            <label for="last"><b>Guest Last Name</b></label>
+            <input id="last" type="text" placeholder="Last Name" name="last" required><br>
+
+            <label for="roomnum"><b>Room Number</b></label>
+            <input id="roomnum" type="number" placeholder="Room Number" name="roomnum" required><br>
+            
+            <label for="addy"><b>Address details</b></label>
+            <input id="addy" type="text" placeholder="Address Details" name="addy" required><br>
+            
+            <label for="entry"><b>Date Guest Wishes to enter room</b></label>
+            <input id="entry" type="date" placeholder="Entry" name="entry" required><br>
+           
+            <label for="exit"><b>Date Guest Wishes to exit room</b></label>
+            <input id="exit" type="date" placeholder="Exit" name="exit" required><br>
+
+            <input type="submit" value="enter"><br>
+
+        </form>
+    </div>
+</body>
+</html>
